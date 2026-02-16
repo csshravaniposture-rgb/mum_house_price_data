@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load model files
-model = joblib.load("model.pkl")
-encoder = joblib.load("encoder.pkl")
+model = joblib.load("mumbai_house_price_data_model.pkl")
+encoder = joblib.load("mhp_label_encoder.pkl")
 
 st.title("Mumbai House Price Prediction")
 
