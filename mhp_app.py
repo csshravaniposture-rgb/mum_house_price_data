@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model= joblib.load("mumbai house price data1 model (2).pkl")
+model= joblib.load("mumbai_house_price_data_model.pkl")
 encoder= joblib.load("mhp_label_encoder.pkl")
 
 st.title("mumbai house price")
